@@ -71,3 +71,26 @@ sqdEvens = [x ** 2 for x in range(8) if x % 2]
 for i in sqdEvens:
     print i
 
+#文件和内建函数open() file()
+# filename = raw_input('Enter file name:')
+# fobj = open(filename, 'r')
+# for eachLine in fobj:
+#     print eachLine,
+# fobj.close()
+
+
+#错误和异常处理
+# try:
+#     filename = raw_input('Enter file name:')
+#     fobj = open(filename, 'r')
+#     for eachLine in fobj:
+#         print eachLine, fobj.close()
+# except IOError, e:
+#     print 'file open error:', e
+
+#函数
+def addMe2Me(x):
+    'apply + operation to argument'
+    return (x + x)
+print addMe2Me(4.25)
+
