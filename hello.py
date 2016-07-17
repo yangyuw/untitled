@@ -125,3 +125,5 @@ print sys.version
 #str(obj) 将一个对象转换为字符串
 #type(obj) 返回对象的类型(返回值本身是一个 type 对象!)
 
+# chapter3
+# _xxx是私有变量
