@@ -127,3 +127,10 @@ print sys.version
 
 # chapter3
 # _xxx是私有变量
+
+# chapter4
+# 4.6标准类型内建函数
+# cmp(obj1, obj2) 比较obj1和obj2, 根据比较结果返回整数i
+# repr(obj)或'obj' 返回一个对象的字符串表示
+# str(obj) 返回对象适合可读性好的字符串表示
+# type(obj) 得到一个对象的类型,并返回相应的type对象
